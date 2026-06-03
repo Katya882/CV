@@ -72,8 +72,8 @@ body {
         text-align: center;
         padding: 40px 30px; } }
     .resume-container .resume-header .profile-avatar {
-      width: 130px;
-      height: 130px;
+      width: 230px;
+      height: 230px;
       border-radius: 50%;
       background: linear-gradient(135deg, #1877F2, #F15623);
       display: flex;
@@ -151,6 +151,23 @@ body {
       .resume-container .section .section-title i {
         color: #F15623;
         font-size: 18px; }
+  .resume-container .profile-avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #1877F2, #F15623);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 20px rgba(24, 119, 242, 0.3);
+    overflow: hidden; }
+    .resume-container .profile-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      image-rendering: crisp-edges;
+      will-change: transform; }
   .resume-container .project-card {
     background: var(--bg-body);
     border: 1px solid var(--border);
